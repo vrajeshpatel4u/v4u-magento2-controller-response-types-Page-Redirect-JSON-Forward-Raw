@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>
+            V4U Controller Response Types (Page Result)
+        </title>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="V4U\ControllerResponseTypes\Block\ControllerResponseTypes" name="pageresult_response" template="V4U_ControllerResponseTypes::result_page.phtml" />
+        </referenceContainer>
+    </body>
+</page>
